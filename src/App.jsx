@@ -24,7 +24,7 @@ import {default as ShowArticles} from './components/backend/articles/Show';
 function App() {
   return (
       <>
-    <BrowserRouter>
+    <BrowserRoute basename="/construction_project">
       <Routes>
         <Route path="/" element={<Homee />} />
         <Route path="/about" element={<About />} />
